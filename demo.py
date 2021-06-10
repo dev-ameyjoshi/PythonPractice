@@ -30,6 +30,8 @@ for number in range(5,0,-1):
 
       print("---------------------------")
 
+
+
 number_of_passengers=5
 number_of_baggage=2
 security_check=True
@@ -40,3 +42,10 @@ for passenger_count in range(1, number_of_passengers+1):
         else:
             print("Security check of passenger:", passenger_count, "-- baggage:", baggage_count,"baggage not cleared")
 
+print("----------------------------------------------------------")
+
+for i in range(4):
+    for j in range(4):
+        print("#",end="")
+
+    print()
