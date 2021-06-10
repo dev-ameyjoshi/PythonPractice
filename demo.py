@@ -49,3 +49,44 @@ for i in range(4):
         print("#",end="")
 
     print()
+
+    print("---------------------------------------------------------")
+
+
+ 
+
+Number = int(input("Enter the number : "))
+Sum = 0
+
+while(Number>0):
+     Remainder = Number % 10
+     Sum = Sum + Remainder
+     Number = Number //10
+
+print("\n Sum of the digit of given number = %d" %Sum)     
+
+print("------------------------------------------------")
+for i in range(4):
+    for j in range(i+1):
+        print("#",end="")
+
+    print()
+
+    
+for i in range(4):
+    for j in range(4-i):
+        print("#",end="")
+
+    print()
+
+    print("-------------------------------------------------------------------------")
+
+num = int(input("Enter the number of rows: "))
+for i in range(1,num+1):
+    for j in range(1,num-i+1):
+        print(end="")
+    for j in range(i,0,-1):
+        print(j,end="")
+    for j in range(2,i+1):
+        print(j,end="")
+    print()
